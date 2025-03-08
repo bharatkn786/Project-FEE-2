@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Electromart</title>
+    <link rel="shortcut icon" href="/Pictures/logo3.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/CSS/description.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__sidebar">
+            <i class="fa fa-bars"></i>
+          </div>
+
+          <img class="logo" src="/Images/logo.jpg" alt="logo" style="height: 70px; margin-right: 0%; " />
+          
+        <div class="nav__menu">
+          <div class="menu__top">
+            <span class="nav__category">ELECTROMART</span>
+            <a href="#" class="close__toggle">
+              
+          <i class="fa fa-bars" style="color: black;"></i>
+            </a>
+          </div>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <b><a href="/HTML/INDEX.HTML" style="color: black;">HOME</a></b>
+              </li>
+              <li class="nav__item">
+                <b><a href="/HTML/Category.html" style="color: black;">PRODUCTS</a></b>
+              </li>
+              <li class="nav__item">
+                <b><a href="/HTML/about.html" style="color: black;">ABOUT</a></b>
+              </li>
+              <li class="nav__item">
+                <b><a href="/HTML/about.html" style="color: black;">FAQ</a></b>
+              </li>
+              <li class="nav__item">
+                <b><a href="/HTML/favourite.html" style="color: black;">FAVOURITE</a></b>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav__icons">
+            <a href="#" class="icon__item" id="search-btn">
+              <i class="fa fa-search"></i>
+            </a>
+
+            <a href="#" class="icon__item" id="cart-btn">
+              <i class="fa fa-shopping-cart" ></i>
+              <span id="cart__total">3</span>
+            </a>
+
+            <div class="profile-icon">
+              <a href="#" class="icon__item" id="login-btn">
+                <i class="fa fa-user"></i> </a>
+              <div class="dropdown-profile">
+                <div class="profile-card">
+                  <div class="profile-picture">
+                    <img src="/Images/Profile.jpg" alt="Profile Picture">
+                  </div>
+                  <div class="profile-name">
+                    <h2>John Leo</h2>
+                  </div>
+                  <div class="profile-info">
+                    <p><span><b>Email:</b> johnleo@example.com</span><i class="fas fa-envelope"></i></p>
+                    <p><span><b>Phone:</b> 123-456-7890</span><i class="fas fa-phone"></i></p>
+                    <p><span><b>Date of Birth:</b> 05/06/2004</span><i class="fas fa-birthday-cake"></i></p>
+                  </div>
+                  <div class="button-container">
+                    <button class="edit-profile">Edit Profile</button>
+                    <button class="logout-button">Logout</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+<div class="container">
+    <div class="box">  
+        <div class="img-box">  
+            <div class="small-img"> 
+                <div class="card-1" id="card">
+                    <img src="/HTML/mac1 edit2.jpg" onclick="changeImage('/Pictures/image1.jpg')">
+                </div>
+ 
+                    
+                <div class="card-2" id="card"> 
+                    <!-- <img src="new-1.jpg" onclick="changeImage('new-1.jpg')"> -->
+                    <img src="/HTML/new-1-removebg-preview.jpg" onclick="changeImage('/HTML/2nd.jpg')">
+                </div>
+                <div class="card-3" id="card"> 
+                    <img src="/HTML/OIP (3)upper edit.jpeg.jpg" onclick="changeImage('/HTML/3rd.jpg')">
+                </div>
+                <div class="card-4" id="card"> 
+                    <img src="/HTML/finalimg4edit.jpg" onclick= "changeImage('/HTML/finalimg4edit.jpg')" >
+                </div>
+            </div>     
+            <div class="big-img" id="big-card">
+                <!-- <img id="big-image" src="mac1 (1).jpg"> -->
+                <img id="big-image" src='/HTML/mac1 (1).jpg'>
+            </div>
+        </div>
+        <div class="desc">
+            <!-- <img src="Laptop-Wallpaers-HD.jpg"> -->
+            <br><br><p>MacBook Air Laptop </p>
+            <div class="star-rating">
+                <span class="fa-light fa-star fa 1x checked"></span>
+                <span class="fa-light fa-star fa 3x checked"></span>
+                <span class="fa-light fa-star fa 3x checked"></span>
+                <span class="fa-light fa-star fa 3x checked"></span>
+                <span class="fa-light fa-star fa 3x last-star"></span>
+                <p class="rating-value" style="font-size: 25px; ">(4.0)</p>
+            </div>
+            <span class="dollar-sign" style="color: black; font-size: 55px; margin-top: 20px;top: 20px;">$55.00</span>
+            <del style="text-decoration: line-through; color: black; font-size: 25px; margin-left: 10px;" >
+                $99.00
+            </del>
+
+            <div class="p-desc">
+                <p style=" font-size: 23px; font: 200; color: rgb(49, 47, 47); margin-top: 20px;">This MacBook Air M3 is a lightweight and portable laptop designed for everyday use.It features a 13.6-inch or 15-inch Retina display, up to 18 hours of battery life, and a range of processor options, including the M2 and M3 chips. </p>
+            </div>
+
+            <div class="color" style="color: black; font-size: 28px; margin-top: 20px;">Colour :</div>
+            <div class="color-selection">
+                <ul class="color-options" style="margin-top: 15px;">
+                    <li class="color-option active" data-color="Midnight">
+                        <span class="color-circle" style="background-color: #5c8ace;"></span>
+                        Midnight
+                    </li>
+                    <li class="color-option" data-color="Silver">
+                        <span class="color-circle" style="background-color: #e1e1e1;"></span>
+                        Silver
+                    </li>
+                    <li class="color-option" data-color="Space Grey">
+                        <span class="color-circle" style="background-color: #5b5b5b;"></span>
+                        Space Grey
+                    </li>
+                    <li class="color-option" data-color="Starlight">
+                        <span class="color-circle" style="background-color: #d8c3b6;"></span>
+                        Starlight
+                    </li>
+                </ul>
+            </div>
+            <div class="3d">
+              <a href="/mackbook_air_3d/model.html" target="_blank" style="text-decoration: none;">
+              <button type="button" style="display: flex; height: 60px; width: 200px; font-size: x-large; align-items: center; justify-content: center;" >View 3D Model
+
+            </div>
+      
+            <p style="font-size: 20px; margin-top: 20px;">Available In Stock!</p>
+            
+            <div class="order-btn" style="display: flex; gap: 30px;">
+
+                <div class="order">
+                    <button type="button" class="minus-btn" onclick="changeQuantity(this, -1)">-</button>
+                    <input type="text" id="quantity" class="number" value="1" min="1" max="100">
+                    <button type="button" class="plus-btn" onclick="changeQuantity(this, 1)">+</button>
+                </div>
+                <!-- <div class="cart">
+                    <input type="text" value="ADD TO CART" class="addtocart" disabled>
+                </div> -->
+                <div class="cart">
+                    <button class="add-to-cart" onclick="addToCart()">
+                        <div class="cart-icon">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <div class="cart-text">
+                             ADD TO CART
+                        </div>
+                    </button>
+                </div>
+
+                <div class="heart">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+            </div>
+            <p style="font-size: 18px; margin-top: 17px; font: 500">
+                <span> Category:</span>Electronics
+            </p>
+            <div class="social" style="display: flex;">
+                <div class="links" style="color: black; display: flex; font-size: 20px; margin-top: 18px; gap: 20px;">Share: </div>
+                <ul class="unlisted" style="display: flex; list-style-type: none;">
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook" style="color: black; margin-top: 20px; font-size: 20px; margin-left: 10px;"></i>
+                        </a></li>
+                        <li>
+
+                        <a href="#">
+                            <i class="fa-brands fa-twitter" style="color: black; margin-top: 20px;font-size: 20px; margin-left: 10px;"></i>
+                        </a></li>
+                        <li>
+
+                        <a href="#">
+                            <i class="fa-brands fa-whatsapp" style="color: black; margin-top: 20px;font-size: 20px; margin-left: 10px;"></i>
+                        </a></li>
+                       <li><a href="#">
+                            <i class="fa-brands fa-instagram" style="color: black; margin-top: 20px;font-size: 20px; margin-left: 10px;"></i>
+                        </a></li> 
+                    
+                    <!-- Add more list items for other social media icons here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="line">
+    </div>
+    <!-- Facility Section -->
+<section class="facility" id="facility">
+    <div class="container">
+      <div class="facility-items">
+        <div class="facility-item">
+          <div class="icon">
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p>4 Star Rating</p>
+        </div>
+  
+        <div class="facility-item">
+          <div class="icon">
+            <i class="fa-solid fa-shield"></i>
+          </div>
+          <p>1 Year Warranty</p>
+        </div>
+  
+        <div class="facility-item">
+          <div class="icon">
+            <i class="fa-solid fa-box-open"></i>
+          </div>
+          <p>Free-Delivery</p>
+        </div>
+  
+        <div class="facility-item">
+          <div class="icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <p>24/7 Online Support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <div class="product-desc">
+        <div class="tabs">
+            <button type="button" class="description" id="1" style=" background-color:rgba(193, 188, 188, 0.19); color: rgb(18, 17, 17); font-size: 30px;border-radius: 20px; padding: 10px; width: 230px;  transition: background-color 0.3s ease;" >Description</button>
+            <button type="button" class="additional" id="2" style="background-color: rgba(193, 188, 188, 0.19); color: rgb(18, 17, 17); font-size: 25px; border-radius: 20px;padding: 10px; width: 280px;  transition: background-color 0.3s ease;" >Additional Information</button>
+            <button type="button" class="shipping" id="3" style="background-color: rgba(193, 188, 188, 0.19); color: rgb(18, 17, 17); font-size: 25px; border-radius: 20px;padding: 10px;width: 300px;  transition: background-color 0.3s ease;">Shipping & Return</button>
+            <button type="button" class="reviews" id="4" style="background-color: rgba(193, 188, 188, 0.19);color: rgb(18, 17, 17); font-size: 25px; border-radius: 20px;padding: 10px;width: 200px;  transition: background-color 0.3s ease;">Reviews</button>
+
+        </div>
+        <div class="tab-content" >
+            <div class="description-content" id="1"  >
+                <h1 style="margin-left:40px ;">Product Description</h1>
+                <br>
+                <p >
+                    The MacBook Air is a sleek and portable laptop, perfect for those who need a reliable and powerful device on the go. With its stunning design and user-friendly interface, 
+                    it's an ideal choice for anyone looking for a hassle-free computing experience.
+                    <br>
+                    <br>
+                    <ul style="font-size: 22px; font: 400lem; margin-left: 100px;">
+                        <li>
+                            <span style="font-weight: bold;">Powerful Performance:</span> Supercharged by the M3 chip, this laptop features an 8-core CPU and up to 10-core GPU, allowing you to get more done faster and smoothly.
+                        </li><br>
+                        <li>
+                            <span style="font-weight: bold;">Seamless App Experience:</span> With Apple Silicon, all your favorite apps, including Microsoft 365 and Adobe Creative Cloud, run lightning fast in macOS.
+                        </li><br>
+                        <li>
+                            <span style="font-weight: bold;">Immersive Experience:</span> Enjoy amazing visuals and sound with a 1080p FaceTime HD camera, three mics, and six speakers with Spatial Audio, making everything look and sound great.
+
+                        </li><br>
+                        <li>
+                            <span style="font-weight: bold;">Ultra-Portable and light-weight: </span>Weighing in at just over 1 cm thin and incredibly lightweight, the MacBook Air is designed to be taken anywhere, making it the perfect companion for work, travel, or play.
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
+                    <p>
+                        The MacBook Air is available in four stunning colors, including Space Grey, Starlight, Silver, and Midnight andAnd with its long-lasting battery life, you can enjoy up to 12 hours of use on a single charge.With its stunning design and user-friendly interface, it's an ideal choice for anyone looking for a hassle-free computing experience.
+                    </p>
+                </p>
+            </div>
+            <div class="additional-content" id="2"  >
+                <h1 style="margin-left:40px; ">It is Reliable and Best</h1>
+                <br>
+                <p style="font-size: 25px;">
+                    The MacBook Air features Apple's proprietary M3 chip, which provides a perfect blend of performance and power efficiency, up to 18 hours of battery life, a stunning 13.6" Liquid Retina display that supports 1 billion colors, and immersive Spatial Audio with six speakers, setting it apart from other laptops in its class with its unique combination of performance, display, and audio capabilities.
+                    <br><br>The MacBook Air comes with fast SSD storage, which enables quick loading of apps and files, and provides a responsive overall experience. It integrates well with other Apple devices, such as iPhones and iPads, allowing users to easily share files, photos, and more.
+                </p>
+            </div>
+            <div class="return-content" id="3" >
+                <h1 style="margin-left:40px ;">Returns Policy
+                </h1>
+                <br>
+                <p >
+                    Apple offers a 14-day return window for the MacBook Air, allowing customers to return the device within 14 days of delivery for a full refund.
+                    The Mac must be in its original condition, with all original packaging, accessories, and documentation included, to be eligible for a return.There is no restocking fee for returns, but customers are responsible for the cost of return shipping.
+                </p>
+                <br>
+                <br>
+                <h1 style="margin-left:40px ;">Shipping</h1>
+                <br>
+                <p>
+                    <span style="font-weight: bold;">Standard Delivery:</span> Apple offers free standard delivery on all online orders, with delivery times varying depending on the location.<br>
+                    <span style="font-weight: bold;">Express Delivery:</span> Apple also offers express delivery options, including same-day delivery, next-day delivery, and two-day delivery, for an additional fee.<br>
+                    <span style="font-weight: bold;">Shipping Estimates:</span> Shipping estimates are provided at checkout, and Apple provides tracking information for all shipments.
+                </p>
+            </div>
+            <div class="tab-content reviews-content" id="4">
+                <div class="rev-section">
+
+                    <h2 class="title">Reviews</h2>
+                    
+                    <div class="review-data">
+                    
+                    <div class="review">
+                       <div class="head-review">
+                          <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__480.png" width="250px">
+                       </div>
+                       <div class="body-review">
+                          <div class="name-review">Sam.Boxer</div>
+                          <div class="rating">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half"></i>
+                          </div>
+                          <div class="desc-review">The MacBook Air M3 has received praise for its fast performance, with many reviewers noting that it can handle demanding tasks such as video editing very good.</div>
+                       </div>
+                    </div>
+                    <div class="review">
+                       <div class="head-review">
+                          <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__480.png" width="250px">
+                       </div>
+                       <div class="body-review">
+                          <div class="name-review">Rose disuza</div>
+                          
+                          <div class="rating">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                          </div>
+                          <div class="desc-review">The MacBook Air M3's display has been praised for its vibrant colors and high resolution, making it ideal for watching movies and browsing the web.</div>
+                       </div>
+                    </div>
+                    <div class="review">
+                       <div class="head-review">
+                          <img src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__480.png" width="250px">
+                       </div>
+                       <div class="body-review">
+                          <div class="name-review">Harry.sharma</div>
+                      
+                          <div class="rating">
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star"></i>
+                             <i class="fas fa-star-half"></i>
+                          </div>
+                          <div class="desc-review">The MacBook Air M3 is a great value for its price, offering a powerful and feature-rich laptop at a competitive price point.It powerhouse of a laptop that can handle anything.</div>
+                       </div>
+                    </div>
+                </div>   
+            </div>
+
+            
+        </div>
+        <div class="newsletter">
+            <div class="letter-content">
+                <h1 class="headline">
+                    <span class="headline-small">Join Our</span><br>Newsletter
+                </h1>
+                <h3 class="subtext">
+                    Sign Up for our newsletter and <br>never miss any offers
+                </h3>
+            <div class="email">
+                    <input type="text" placeholder="Your Email Address" required>
+                    <button type="button" class="signup-button">Sign Up</button>
+            </div>
+            </div>
+        </div>
+                
+
+        <!-- <div class="model">
+            <model-viewer src="macbook_air_m2/scene.gltf" alt="3D Model" auto-rotate camera-controls ar ios-src="macbook_air_m2/scene.gltf" style="width: 100%; height: 100vh;"></model-viewer>
+          </div> -->
+    </div>
+    <!-- Footer -->
+<footer id="footer" class="section footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer-top__box">
+        <h3>SOCIALS</h3> 
+          <div>
+          <span>
+            <i class="fab fa-instagram"></i>
+            </span>Instagram
+          </div>
+          <div>
+            <span>
+              <i class="fab fa-facebook"></i>
+            </span>Facebook
+          </div>
+          <div>
+            <span>
+              <i class="fab fa-twitter"></i>
+            </span> Twitter
+          </div>
+      </div>
+      <div class="footer-top__box">
+        <h3>INFORMATION</h3>
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Site Map</a>
+      </div>
+      <div class="footer-top__box">
+        <h3>MY ACCOUNT</h3>
+        <a href="#">My Account</a>
+        <a href="#">Order History</a>
+        <a href="#">Wish List</a>
+        <a href="#">Newsletter</a>
+        <a href="#">Returns</a>
+      </div>
+      <div class="footer-top__box">
+        <h3>CONTACT US</h3>
+        <div>
+          <span>
+              <i class="fa fa-home"></i>
+          </span>
+          42 Dream House, Dreammy street, 7131 Dreamville, USA
+        </div>
+        <div>
+          <span>
+            <i class="fa fa-envelope"></i>
+          </span>
+          company@gmail.com
+        </div>
+        <div>
+          <span>
+            <i class="fa fa-phone"></i>
+          </span>
+          456-456-4512
+        </div>
+        <div>
+          <span>
+            <i class="fa fa-paper-plane"></i>
+          </span>
+          Dream City, USA
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="footer-bottom__box">
+
+    </div>
+    <div class="footer-bottom__box">
+
+    </div>
+  </div>
+  </div>
+</footer>
+<!-- End Footer -->
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Your Company Name. All Rights Reserved.</p>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+    
+</body>
+<script src="/JS/description.js"></script>
+
+</html>
+

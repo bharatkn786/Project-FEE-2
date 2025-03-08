@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <!-- Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
+  <!-- Custom StyleSheet -->
+  <link rel="shortcut icon" href="/Pictures/logo3.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/CSS/Category.css" />
+  <!-- Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+<title>Electromart</title>
+</head>
+<body>
+  <header id="header" class="header">
+    <div class="navigation">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__sidebar">
+            <i class="fa fa-bars"></i>
+          </div>
+
+          <img class="logo" src="/Images/logo.jpg" alt="logo" style="height: 70px; margin-right: 0%;" />
+          
+        <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <b><a href="/HTML/INDEX.HTML" style="color: black;">HOME</a></b>
+              </li>
+              <li class="nav__item">
+                <b><a href="/HTML/Category.html" style="color: black;">PRODUCTS</a></b>
+              </li>
+              <li class="nav__item">
+                <b><a href="/HTML/about.html" style="color: black;">ABOUT</a></b>
+              </li>
+              <li class="nav__item">
+                <b><a href="/HTML/about.html" style="color: black;">FAQ</a></b>
+              </li>
+              <li class="nav__item">
+                <b><a href="/HTML/favourite.html" style="color: black;">FAVOURITE</a></b>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav__icons">
+            <a href="#" class="icon__item" id="search-btn">
+              <i class="fa fa-search"></i>
+            </a>
+
+            <a href="#" class="icon__item" id="cart-btn">
+              <i class="fa fa-shopping-cart" ></i>
+              <span id="cart__total">3</span>
+            </a>
+
+            <div class="profile-icon">
+              <a href="#" class="icon__item" id="login-btn">
+                <i class="fa fa-user"></i> </a>
+              <div class="dropdown-profile">
+                <div class="profile-card">
+                  <div class="profile-picture">
+                    <img src="/Images/Profile.jpg" alt="Profile Picture">
+                  </div>
+                  <div class="profile-name">
+                    <h2>John Leo</h2>
+                  </div>
+                  <div class="profile-info">
+                    <p><span><b>Email:</b> johnleo@example.com</span><i class="fas fa-envelope"></i></p>
+                    <p><span><b>Phone:</b> 123-456-7890</span><i class="fas fa-phone"></i></p>
+                    <p><span><b>Date of Birth:</b> 05/06/2004</span><i class="fas fa-birthday-cake"></i></p>
+                  </div>
+                  <div class="button-container">
+                    <button class="edit-profile">Edit Profile</button>
+                    <button class="logout-button">Logout</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="Category">
+      <img src="/Images/Categories.png" alt="Category"  width="100%">
+    </div>
+
+    <section class="section latest__products" id="latest">
+      <div class="title__container">
+        <div class="section__title active" data-id="Latest Products">
+          <h1 class="primary__title">Laptop</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="glide" id="glide_3">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides latest-center">
+              <li class="glide__slide">
+                <div class="product" >
+                  <div class="product__header">
+                    <a href="/HTML/decription.html"><img src="/Images/Macbook.jpeg" alt="1"></a>
+                  </div>
+                  <div class="product__footer">
+                    <h3>Apple Macbook Air</h3>
+                    <div class="rating">
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                  </div>
+                    <div class="product__price">
+                      <h4>$750</h4>
+                    </div>
+                    <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="product">
+                  <div class="product__header">
+                    <a href="/HTML/decription.html"><img src="/Images/Laptop hp.webp" alt="2"></a>
+                  </div>
+                  <div class="product__footer">
+                    <h3>Hp Laptop 15s</h3>
+                    <div class="rating">
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                  </div>
+                    <div class="product__price">
+                      <h4>$750</h4>
+                    </div>
+                    <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="product">
+                  <div class="product__header">
+                    <a href="/HTML/decription.html"><img src="/Images/Lenovo laptop.jpg" alt="3"></a>
+                  </div>
+                  <div class="product__footer">
+                    <h3>Lenovo Thinkpad P14s</h3>
+                    <div class="rating">
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                  </div>
+                    <div class="product__price">
+                      <h4>$750</h4>
+                    </div>
+                    <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="product">
+                  <div class="product__header">
+                    <a href="/HTML/decription.html"><img src="/Images/Dell laptop.jpg" alt="4"></a>
+                  </div>
+                  <div class="product__footer">
+                    <h3> XPS</h3>
+                    <div class="rating">
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                  </div>
+                    <div class="product__price">
+                      <h4>$750</h4>
+                    </div>
+                    <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="product">
+                  <div class="product__header">
+                     <a href="/HTML/decription.html"><img src="/Images/Acer laptop.jpeg" alt="5">
+                  </div>
+                  <div class="product__footer">
+                    <h3>Acer Nitro 5</h3>
+                    <div class="rating">
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star" style="color: #FFD43B;"></i>
+                      <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                  </div>
+                    <div class="product__price">
+                      <h4>$750</h4>
+                    </div>
+                    <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <i class="fa fa-arrow-left"></i>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <i class="fa fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      <section class="section latest__products" id="latest">
+        <div class="title__container">
+          <div class="section__title active" data-id="Latest Products">
+            <h1 class="primary__title">Earbuds</h1>
+          </div>
+        </div>
+        <div class="container">
+          <div class="glide" id="glide_1">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides latest-center">
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/AD120-FI_Black01.webp" alt="6">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Boat Airdops</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Samsung.webp" alt="7">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Samsung Earbuds Series 11</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/redmi.jpg" alt="8">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Redmi buds 5C</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Realme.jpg" alt="9">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Realme Nord buds </h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/apple.jpeg" alt="10">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Apple Airpods 3rd gen</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <i class="fa fa-arrow-left"></i>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section latest__products" id="latest">
+        <div class="title__container">
+          <div class="section__title active" data-id="Latest Products">
+            <h1 class="primary__title">Phones</h1>
+          </div>
+        </div>
+        <div class="container">
+          <div class="glide" id="glide_2">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides latest-center">
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/iphone-card-40-iphone15prohero-202309_FMT_WHH.jpeg" alt="11">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Iphone 15</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/samsung-galaxy-s23-ultra.webp" alt="12">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Samsung S23</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/images.jpeg" alt="13">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Redmi 13</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/images (2).jpeg" alt="14">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Samsung Galaxy Z Fold6</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Oneplus phne.jpg" alt="15">
+                    </div>
+                    <div class="product__footer">
+                      <h3>OnePlus Open</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <i class="fa fa-arrow-left"></i>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section latest__products" id="latest">
+        <div class="title__container">
+          <div class="section__title active" data-id="Latest Products">
+            <h1 class="primary__title">TV</h1>
+          </div>
+        </div>
+        <div class="container">
+          <div class="glide" id="glide_4">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides latest-center">
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Xiaomi tv.jpeg" alt="16">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Xiaomi X Series</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Sony tv.jpeg" alt="17">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Sony Bravia</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Samsung tv.webp" alt="18">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Samsung D Series</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Toshiba tv.jpg" alt="19">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Toshiba V Series</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/LG TV.jpeg" alt="20">
+                    </div>
+                    <div class="product__footer">
+                      <h3>LG 4K Ultra</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <i class="fa fa-arrow-left"></i>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section latest__products" id="latest">
+        <div class="title__container">
+          <div class="section__title active" data-id="Latest Products">
+            <h1 class="primary__title">Refrigrator</h1>
+          </div>
+        </div>
+        <div class="container">
+          <div class="glide" id="glide_5">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides latest-center">
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Samsung fridge.jpeg" alt="21">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Samsung 236L</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/LG FRIDGE.jpg" alt="22">
+                    </div>
+                    <div class="product__footer">
+                      <h3>LG 242L</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Whirlpool fridge.jpeg" alt="23">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Whirlpool 235L</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Panasonic fridge.jpg" alt="24">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Panasonic 450L</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product__header">
+                      <img src="/Images/Godrej fridge.jpeg" alt="25">
+                    </div>
+                    <div class="product__footer">
+                      <h3>Godrej 223L</h3>
+                      <div class="rating">
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa fa-star-half-alt"  style="color: #FFD43B;"></i>
+                    </div>
+                      <div class="product__price">
+                        <h4>$750</h4>
+                      </div>
+                      <a href="#"><button type="submit" class="product__btn">Add To Cart</button></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <i class="fa fa-arrow-left"></i>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <i class="fa fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- Footer -->
+<footer id="footer" class="section footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer-top__box">
+        <h3>SOCIALS</h3> 
+          <div>
+          <span>
+            <i class="fab fa-instagram"></i></span>Instagram
+          </div>
+          <div>
+            <span>
+              <i class="fab fa-facebook"></i></span>Facebook
+          </div>
+          <div>
+            <span>
+              <i class="fab fa-twitter"></i></span> Twitter
+          </div>
+      </div>
+      <div class="footer-top__box">
+        <h3>INFORMATION</h3>
+        <a href="/HTML/about.html">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Site Map</a>
+      </div>
+      <div class="footer-top__box">
+        <h3>MY ACCOUNT</h3>
+        <a href="#">My Account</a>
+        <a href="#">Order History</a>
+        <a href="#">Wish List</a>
+        <a href="#">Newsletter</a>
+        <a href="#">Returns</a>
+      </div>
+      <div class="footer-top__box">
+        <h3>CONTACT US</h3>
+        <div>
+          <span>
+              <i class="fa fa-home"></i></span>
+          42 Dream House, Dreammy street, 7131 Dreamville, USA
+        </div>
+        <div>
+          <span>
+            <i class="fa fa-envelope"></i></span>
+          company@gmail.com
+        </div>
+        <div>
+          <span>
+            <i class="fa fa-phone"></i></span>
+          456-456-4512
+        </div>
+        <div>
+          <span>
+            <i class="fa fa-paper-plane"></i></span>
+          Dream City, USA
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="footer-bottom__box">
+    </div>
+  </div>
+  </div>
+</footer>
+<!-- End Footer -->
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Your Company Name. All Rights Reserved.</p>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+<!-- Glide Carousel Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+<!-- Animate On Scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Custom JavaScript -->
+<script src="/JS/Category.js"></script>
+
+</body>
+</html>
